@@ -9,9 +9,11 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+version=$(shell dpkg-parsechangelog | sed -n -e 's/^Version: //p')
+
 override_dh_auto_install:
 	touch skippy-xd.rc-default
-	make DESTDIR=./debian/skippy-xd PREFIX=/usr install
+	make SKIPPYXD_VERSION=$(version) DESTDIR=./debian/skippy-xd install
 	#dh_auto_install
 
 
