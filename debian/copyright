@@ -1,0 +1,25 @@
+This package was debianized by Liviu Andronic <landronimirc@gmail.com> on
+Thu, 31 Jan 2013 09:59:38 +0200.
+
+This fork was downloaded from 
+http://code.google.com/p/skippy-xd/
+
+Fork Author and copyright holder:
+© 2011
+Nick Watts <nick@resplect.com>
+
+Original project: 
+http://freecode.com/projects/skippy
+http://cdn.thegraveyard.org/releases/skippy/skippy-xd-0.5.0.tar.bz2
+
+Upstream Author and copyright holder:
+© 2004
+Hyriand <hyriand at thegraveyard.org>
+
+License: GPLv2.
+
+You are free to distribute this software under the terms of
+the GNU General Public License (version 2).
+On Debian systems, the complete text of the GNU General Public
+License can be found in the file `/usr/share/common-licenses/GPL'
+

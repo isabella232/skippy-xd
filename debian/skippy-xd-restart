@@ -1,0 +1,4 @@
+#!/bin/sh
+killall skippy-xd
+rm /tmp/skippy-xd-fifo
+skippy-xd --start-daemon

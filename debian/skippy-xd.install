@@ -1,0 +1,2 @@
+debian/skippy-xd-restart /usr/bin
+debian/skippy-xd-activate /usr/bin

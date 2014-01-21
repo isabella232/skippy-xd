@@ -1,0 +1,29 @@
+Source: skippy-xd
+Section: x11
+Priority: optional
+Maintainer: Liviu Andronic <landronimirc@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), libimlib2-dev, libfontconfig1-dev, 
+  libfreetype6-dev, libx11-dev, libxext-dev, libxft-dev, libxrender-dev, 
+  zlib1g-dev, libxinerama-dev, libxcomposite-dev, libxdamage-dev, 
+  libxfixes-dev
+Standards-Version: 3.9.2
+Homepage: http://code.google.com/p/skippy-xd/
+
+Package: skippy-xd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: standalone composited Exposé-like window picker for X11
+ Skippy-XD is a program that provides Exposé-like features found on the Mac
+ OS X operating system. It is a standalone application for providing a window 
+ picker with live previews (including live video) on Linux desktops that run 
+ an X server with compositing support. Thus it is not part of the window 
+ manager, and the compositing is not being used all the time. 
+ .
+ If you work with many windows, your desktop may begin to get cluttered.  You
+ can use Skippy-XD to quickly and conveniently find the right window that you 
+ are looking for. It allows you to press a hotkey and see miniature versions 
+ of all your active windows at once. 
+ .
+ To use Skippy-XD, you need Xfce (xfwm4) or a NetWM compliant window 
+ manager (LXDE, Openbox-based window managers, etc.).
+
